@@ -24,4 +24,4 @@ jobs:
       id: go
 
     - name: Test
-      run: amke test
+      run: make test
