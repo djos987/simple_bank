@@ -78,7 +78,7 @@ func TestGetAccountAPI(t *testing.T) {
 				require.Equal(t, http.StatusBadRequest, recorder.Code)
 			},
 		},
-		//TODO: add more test cases
+
 	}
 	for i := range testCases {
 		tc := testCases[i]
