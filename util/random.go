@@ -44,7 +44,3 @@ func RandomCurrency() string {
 func RandomEmail() string {
 	return RandomString(6) + "@example.com"
 }
-
-func RandomPassword() string {
-	return RandomString(6)
-}
